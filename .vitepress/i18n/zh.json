@@ -1,0 +1,21 @@
+{
+  "nav.guide": "指南",
+  "nav.components": "组件",
+  "nav.preview": "预览",
+  "sidebar.advanced": "进阶",
+  "sidebar.config": "配置",
+  "sidebar.extraTopics": "其它",
+  "sidebar.guide": "指南",
+  "sidebar.introduction": "简介",
+  "sidebar.gettingStarted": "快速开始",
+  "sidebar.route": "路由",
+  "sidebar.style": "样式",
+  "theme.prev": "上一页",
+  "theme.next": "下一页",
+  "theme.returnToTop": "返回顶部",
+  "theme.outline": "导航栏",
+  "theme.darkModeSwitch": "外观",
+  "theme.sidebarMenu": "归档",
+  "theme.lastUpdated": "更新于",
+  "z": "Z"
+}

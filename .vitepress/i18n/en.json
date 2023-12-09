@@ -1,0 +1,21 @@
+{
+  "nav.components": "Components",
+  "nav.guide": "Guide",
+  "nav.preview": "Preview",
+  "sidebar.advanced": "Advanced",
+  "sidebar.config": "Config",
+  "sidebar.extraTopics": "Extra Topics",
+  "sidebar.guide": "Guide",
+  "sidebar.introduction": "Introduction",
+  "sidebar.gettingStarted": "Getting Started",
+  "sidebar.route": "Route",
+  "sidebar.style": "Style",
+  "theme.prev": "Previous Page",
+  "theme.next": "Next Page",
+  "theme.returnToTop": "Return to top",
+  "theme.outline": "On this page",
+  "theme.darkModeSwitch": "Appearance",
+  "theme.sidebarMenu": "Menu",
+  "theme.lastUpdated": "Last updated",
+  "z": "Z"
+}
