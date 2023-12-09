@@ -17,7 +17,7 @@ export default defineConfig({
       '/component/': { base: '/component/', items: sidebarComponent(locale) },
     },
     editLink: {
-      pattern: `${repo}/edit/master/src/:path`,
+      pattern: `${repo}/edit/main/src/:path`,
       text: "Edit this page",
     },
   },

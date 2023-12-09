@@ -1,8 +1,8 @@
 {
-  "name": "pileax-quasar-admin",
+  "name": "vitepress-i18n-template",
   "version": "1.0.0",
   "description": "A VitePress template with i18n support by default.",
-  "repository": "pileax/pileax-quasar-admin",
+  "repository": "pileax/vitepress-i18n-template",
   "keywords": [
     "vitepress",
     "i18n",

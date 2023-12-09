@@ -1,6 +1,6 @@
 ## Introduction
 
-vitepress-i18n-template is a VitePress template with i18n support by default.
+vitepress-i18n-template is a VitePress template with i18n support by default. [Preview](https://vitepress-i18n-template.netlify.app)
 
 - I18n messages
 - Less code
