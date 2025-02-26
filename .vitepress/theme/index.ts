@@ -1,5 +1,5 @@
 import DefaultTheme from 'vitepress/theme'
-import { inBrowser, useData } from 'vitepress'
+import { useData } from 'vitepress'
 import type { EnhanceAppContext } from 'vitepress'
 import { watchEffect } from 'vue';
 import './style/main.css'

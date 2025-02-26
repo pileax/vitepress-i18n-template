@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 import { nav } from './theme/nav'
 import { sidebarGuide, sidebarComponent } from './theme/sidebar'
 import { labels } from './theme/labels'
-import {name, description, repo } from '../meta'
+import { name, description, repo } from '../meta'
 
 const locale = 'en';
 

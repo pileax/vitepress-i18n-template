@@ -2,7 +2,7 @@ import { tr } from '../../i18n';
 
 export function sidebarGuide(locale :string) {
   const t = (key :string) => {
-    return tr(locale, `sidebar.${key}`)
+    return tr(locale, `sidebar.${key}`);
   }
   return [
     {
@@ -24,15 +24,17 @@ export function sidebarGuide(locale :string) {
   ]
 }
 export function sidebarComponent(locale :string) {
+  const t = (key :string) => {
+    return tr(locale, `sidebar.component.${key}`);
+  }
   return [
     {
-      text: 'Components',
+      text: t('components'),
       collapsed: false,
       items: [
-        { text: 'Introduction', link: 'introduction' },
-        { text: 'Getting Started', link: 'getting-started' },
-        { text: 'Route', link: 'route' },
-        { text: 'Style', link: 'style' },
+        { text: t('introduction'), link: 'introduction' },
+        { text: t('route'), link: 'route' },
+        { text: t('style'), link: 'style' },
       ]
     },
   ]
