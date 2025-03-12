@@ -2,6 +2,8 @@
 
 This page demonstrates some of the built-in markdown extensions provided by VitePress.
 
+<version-badge package="@yiitap/vue" />
+
 ## Installation
 
 :::tabs
@@ -64,7 +66,7 @@ function onUpdate({ json, html }: { json: any; html: string }) {
 </script>
 ```
 == React
-```typescript jsx
+```jsx typescript
 import { useState } from 'react'
 import { YiiEditor } from '@yiitap/react'
 import '@yiitap/react/dist/vue.css'

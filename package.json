@@ -12,6 +12,7 @@
   "license": "MIT",
   "homepage": "",
   "dependencies": {
+    "@yiitap/vue": "^1.0.14",
     "vue": "^3.2.0"
   },
   "devDependencies": {

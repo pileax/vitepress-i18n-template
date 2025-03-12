@@ -2,7 +2,8 @@ import DefaultTheme from 'vitepress/theme'
 import { useData } from 'vitepress'
 import type { EnhanceAppContext, Theme } from 'vitepress'
 import { enhanceAppWithTabs } from 'vitepress-plugin-tabs/client'
-import { watchEffect } from 'vue';
+import { watchEffect } from 'vue'
+import VersionBadge from './components/VersionBadge.vue'
 import './style/main.css'
 import './style/vars.css'
 
@@ -10,7 +11,7 @@ const theme = {
   extends: DefaultTheme,
   enhanceApp({ app, router }: EnhanceAppContext) {
     // components
-    // app.component('Badge', Badge)
+    app.component('VersionBadge', VersionBadge)
 
     // plugins
     // app.use(pinia);
