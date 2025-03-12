@@ -3,12 +3,11 @@
 layout: home
 
 hero:
-  name: "Pileax English"
-  text: "A VitePress Site"
-  tagline: VitePress i18n template
+  name: "Yiitap"
+  tagline: A WYSIWYG rich-text block-based editor
   image:
     src: /logo-with-shadow.png
-    alt: PileaX
+    alt: Yiitap
   actions:
     - theme: brand
       text: Get started

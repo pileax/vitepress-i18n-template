@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs'
 import { keywords, name, repo } from '../meta'
 
 // https://vitepress.dev/reference/site-config
@@ -32,4 +33,10 @@ export default defineConfig({
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }],
     ['meta', { name: 'keywords', content: keywords }],
   ],
+
+  markdown: {
+    config(md) {
+      md.use(tabsMarkdownPlugin)
+    }
+  }
 })
