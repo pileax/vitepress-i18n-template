@@ -1,2 +1,1 @@
-/*  /zh/:splat  302  Language=zh
-/*  /en/:splat  302
+/(?!zh/|en/)(.*)  /en/$1  302
